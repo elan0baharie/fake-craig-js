@@ -1,0 +1,6 @@
+<h2>Welcome to our store!</h2>
+
+<div class="panel panel default" *ngFor="let post of posts" (click)="goToPostingPage(post)">
+  <h4 class="panel-heading">{{post.subject}}</h4>
+
+</div>
